@@ -135,12 +135,12 @@ public class Main {
         for (int i = 0; i < n.length - 1; i++) {
 
             //Как будет правильнее?
-            //Два метода с массивом
+            //Два метода с массивом:
 
             int sumLeft = sumLeftSideArray(n, i);
             int sumRight = sumRightSideArray(n, i + 1);
 
-            //Один метод с массивом
+            //Один метод с массивом:
 
             int[] arr = sumLeftRightSidesArray(n , i);
 
